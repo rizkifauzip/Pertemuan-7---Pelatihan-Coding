@@ -39,4 +39,4 @@ const simpanData = (nama, mobile, email) => {
   fs.writeFileSync(dataPath, JSON.stringify(contacts)); 
   console.log("Terima kasih sudah memasukkan data!"); 
 };
-module.exports = { simpanData };
+module.exports = { simpanData }; 
